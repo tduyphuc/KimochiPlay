@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KimochiPlay</string>
+    <string name="bust">Bust</string>
+    <string name="waist">Waist</string>
+    <string name="hip">Hip</string>
+    <string name="birthday">Birthday</string>
+    <string name="link">Link</string>
+    <string name="height">Height</string>
+    <string name="link_desc">Có cái lol ý, tin người vcl</string>
+
+    <string name="hint_search">Find</string>
+</resources>

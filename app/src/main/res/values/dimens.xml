@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="grid_magin">8dp</dimen>
+    <dimen name="main_vertical_spacing">8dp</dimen>
+    <dimen name="main_horizontal_spacing">8dp</dimen>
+    <dimen name="text_name">16sp</dimen>
+    <dimen name="text_japan_name">16sp</dimen>
+    <dimen name="padding_text_left">16dp</dimen>
+    <dimen name="image_padding">0dp</dimen>
+    <dimen name="text_margin">2dp</dimen>
+    <dimen name="image_minHeight">150dp</dimen>
+
+    <!-- profile -->
+    <dimen name="normal_padding">16dp</dimen>
+    <dimen name="base_8dp">8dp</dimen>
+    <dimen name="text_profile_padding">16dp</dimen>
+    <dimen name="text_profile_1">18sp</dimen>
+    <dimen name="text_profile_2">16sp</dimen>
+    <dimen name="text_profile_name">24sp</dimen>
+    <dimen name="text_profile_japname">20sp</dimen>
+    <dimen name="text_three_num">18sp</dimen>
+</resources>

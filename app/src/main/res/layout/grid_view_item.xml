@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="2dp"
+    android:background="@drawable/borderect">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_image"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:id="@+id/text_desc"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_text_name"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:text="Default"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_name"
+            android:paddingLeft="@dimen/padding_text_left"
+            android:paddingTop="@dimen/padding_text_left"
+            android:paddingRight="@dimen/padding_text_left"
+            android:textColor="@color/color_black"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:alpha="0.87"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_text_japan_name"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:text="Default"
+            android:textSize="@dimen/text_japan_name"
+            android:paddingLeft="@dimen/padding_text_left"
+            android:paddingBottom="@dimen/padding_text_left"
+            android:paddingRight="@dimen/padding_text_left"
+            android:textColor="@color/color_black"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:alpha="0.54"/>
+    </LinearLayout>
+
+</LinearLayout>

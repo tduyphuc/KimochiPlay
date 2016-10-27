@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_grid"
+    tools:context="com.example.phuctdse61834.kimochiplay.MainActivity">
+
+<GridView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gridView"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="@dimen/main_vertical_spacing"
+    android:horizontalSpacing="@dimen/main_horizontal_spacing"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:layout_margin="@dimen/grid_magin">
+</GridView>
+</RelativeLayout>
